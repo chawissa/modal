@@ -55,9 +55,9 @@ p {
 }
 
 /* -------------- MODAL -------------- */
-/* .hidden {
+.hidden {
   display: none;
-} */
+}
 
 .modal {
   position: absolute;
@@ -69,4 +69,5 @@ p {
   padding: 6rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
 }
